@@ -1,31 +1,27 @@
-# frontend/streamlit_app.py
 import streamlit as st
-import requests
-import json
+import pandas as pd
+from llm_client import LLMClient  # your custom wrapper
 
-BACKEND = "http://localhost:8000"
+# Load sample problems
+data = pd.read_csv("data/sample_problems.csv")
 
-st.title("CoachK — SAT Math Tutor (Demo)")
+# Initialize LLM client
+llm = LLMClient()
 
-q = st.text_area("Enter SAT-style math question", height=100)
-student_ans = st.text_input("Your answer (optional)")
+st.title("SAT Math Coach")
 
-if st.button("Ask Tutor"):
-    payload = {"question": q, "student_answer": student_ans}
-    res = requests.post(BACKEND + "/query", json=payload).json()
-    llm = res.get("llm", {})
-    st.subheader("Short answer")
-    st.write(llm.get("short_answer","(no answer)"))
-    st.subheader("Step-by-step")
-    st.write(llm.get("step_by_step","(no steps)"))
-    st.subheader("Analogy (ELI15)")
-    st.write(llm.get("analogy","(no analogy)"))
-    st.subheader("Common Errors / Hints")
-    st.write(llm.get("common_errors",[]))
-    if res.get("diagnosis"):
-        st.info(f"Diagnosis: {res['diagnosis']}")
+st.write("Welcome! Ask me any SAT Math question.")
 
-if st.button("Get 5 practice problems"):
-    res = requests.post(BACKEND + "/practice", json={}).json()
-    for p in res.get("practice", []):
-        st.write(f"- {p['id']}: {p['prompt_text']} [{p['topic_tag']}]")
+# User input
+question = st.text_input("Enter your math question:")
+
+if st.button("Get Solution"):
+    if question:
+        answer = llm.get_answer(question)  # Your LLM call
+        st.write(f"**Answer:** {answer}")
+    else:
+        st.write("Please enter a question.")
+        
+# Optionally display sample problems
+if st.checkbox("Show sample problems"):
+    st.dataframe(data.head(10))
