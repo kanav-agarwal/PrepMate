@@ -23,3 +23,10 @@ nltk>=3.8.1
 # Optional: For visualizations in docs or dashboards
 matplotlib>=3.8.0
 seaborn>=0.12.3
+
+streamlit
+pandas
+openai  # if using OpenAI LLM
+transformers  # if using Hugging Face models
+sentence_transformers
+
