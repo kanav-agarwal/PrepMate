@@ -1,0 +1,6 @@
+id,prompt_text,solution_text,topic_tag,difficulty
+q1,If x^2 - 5x + 6 = 0,Factor: (x-2)(x-3)=0 => x=2 or 3,Algebra,Easy
+q2,If 3(x+2)=21,3(x+2)=21 => x=5,Algebra,Easy
+q3,What is slope of line through (1,2),(4,8)?,Slope=(8-2)/(4-1)=2,Coordinate Geometry,Easy
+q4,Rectangle area=24,width=4, find length,Length=24/4=6,Geometry,Easy
+q5,Simplify (2/3)+(1/6),=5/6,Arithmetic/Fractions,Easy

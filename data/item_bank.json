@@ -1,0 +1,22 @@
+[
+  {"id": "q1", "prompt_text": "If x^2 - 5x + 6 = 0, find x.", "solution_text": "Factor to (x-2)(x-3)=0 so x=2 or x=3.", "topic_tag": "Algebra", "difficulty": "Easy"},
+  {"id": "q2", "prompt_text": "If 3(x+2)=21, what is x?", "solution_text": "3(x+2)=21 => x+2=7 => x=5.", "topic_tag": "Algebra", "difficulty": "Easy"},
+  {"id": "q3", "prompt_text": "What is the slope of the line through (1,2) and (4,8)?", "solution_text": "slope=(8-2)/(4-1)=6/3=2.", "topic_tag": "Coordinate Geometry", "difficulty": "Easy"},
+  {"id": "q4", "prompt_text": "If a rectangle has area 24 and width 4, what is its length?", "solution_text": "length = area/width = 24/4 =6.", "topic_tag": "Geometry", "difficulty": "Easy"},
+  {"id": "q5", "prompt_text": "Simplify: (2/3) + (1/6).", "solution_text": "Common denom 6: 4/6 +1/6 =5/6.", "topic_tag": "Arithmetic/Fractions", "difficulty": "Easy"},
+  {"id": "q6", "prompt_text": "If f(x)=2x+3, what is f(4)?", "solution_text": "f(4)=2*4+3=11.", "topic_tag": "Functions", "difficulty": "Easy"},
+  {"id": "q7", "prompt_text": "Solve for x: 2x+5=17.", "solution_text": "2x=12 => x=6.", "topic_tag": "Algebra", "difficulty": "Easy"},
+  {"id": "q8", "prompt_text": "A train travels 180 miles in 3 hours. What is its average speed (mph)?", "solution_text": "180/3=60 mph.", "topic_tag": "Rates", "difficulty": "Easy"},
+  {"id": "q9", "prompt_text": "If 5x - 7 = 3x + 9, what is x?", "solution_text": "5x-3x =9+7 =>2x=16=>x=8.", "topic_tag": "Algebra", "difficulty": "Easy"},
+  {"id": "q10", "prompt_text": "The sum of two consecutive integers is 25. Find them.", "solution_text": "Let n and n+1: 2n+1=25 =>2n=24 =>n=12, so 12 and 13.", "topic_tag": "Algebra", "difficulty": "Medium"},
+  {"id": "q11", "prompt_text": "If a circle has radius 3, what is its area? (π kept)", "solution_text": "Area = πr^2 = 9π.", "topic_tag": "Geometry", "difficulty": "Medium"},
+  {"id": "q12", "prompt_text": "Solve: 4/(x) = 2, for x.", "solution_text": "4/x = 2 => x = 4/2 = 2.", "topic_tag": "Algebra", "difficulty": "Medium"},
+  {"id": "q13", "prompt_text": "If probability of event is 3/8, what is its complement?", "solution_text": "1 - 3/8 = 5/8.", "topic_tag": "Probability", "difficulty": "Medium"},
+  {"id": "q14", "prompt_text": "A triangle has sides 3,4,5. Is it right-angled?", "solution_text": "3^2+4^2=9+16=25=5^2 so yes, right triangle.", "topic_tag": "Geometry", "difficulty": "Medium"},
+  {"id": "q15", "prompt_text": "Simplify: (x^3 * x^2).", "solution_text": "x^(3+2) = x^5.", "topic_tag": "Algebra", "difficulty": "Medium"},
+  {"id": "q16", "prompt_text": "If y = 2x and x=3, find y.", "solution_text": "y = 2*3 = 6.", "topic_tag": "Functions", "difficulty": "Easy"},
+  {"id": "q17", "prompt_text": "The average of 5 numbers is 10. Sum of four is 36. Find the fifth.", "solution_text": "Total sum = 5*10=50. Fifth = 50-36 = 14.", "topic_tag": "Statistics", "difficulty": "Medium"},
+  {"id": "q18", "prompt_text": "Graph of y = -2x + 4 intersects y-axis at?", "solution_text": "Set x=0 => y=4 so (0,4).", "topic_tag": "Coordinate Geometry", "difficulty": "Easy"},
+  {"id": "q19", "prompt_text": "If (x+1)(x+2)=x^2 + ax + b, find a and b.", "solution_text": "Multiply: x^2 + 3x +2 so a=3, b=2.", "topic_tag": "Algebra", "difficulty": "Medium"},
+  {"id": "q20", "prompt_text": "If 7^2 = 49, what is sqrt(49)?", "solution_text": "sqrt(49)=7 (principal root).", "topic_tag": "Arithmetic", "difficulty": "Easy"}
+]
