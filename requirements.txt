@@ -1,8 +1,25 @@
-fastapi
-uvicorn
-streamlit
-sentence-transformers
-faiss-cpu
-numpy
-requests
-pydantic
+# Core Python packages
+numpy>=1.25.0
+pandas>=2.1.0
+scikit-learn>=1.3.0
+
+# For LLM integration
+transformers>=4.40.0
+torch>=2.1.0
+
+# For data handling and CSV
+python-dotenv>=1.0.0
+
+# For web API/backend
+fastapi>=0.103.0
+uvicorn>=0.23.0
+
+# For frontend (if using JS integration via Python)
+requests>=2.32.0
+
+# For text processing
+nltk>=3.8.1
+
+# Optional: For visualizations in docs or dashboards
+matplotlib>=3.8.0
+seaborn>=0.12.3
