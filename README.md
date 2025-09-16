@@ -1,8 +1,8 @@
 # README.md
 
-# SAT Math Coach — CoachK
+# SAT Coach — PrepMate
 
-CoachK is an AI-powered SAT Math Tutor chatbot designed to help students master SAT Math problems through step-by-step explanations, adaptive difficulty, and error-specific guidance. Built with Python, Streamlit, and large language models, CoachK provides a personalized learning experience.
+PrepMate is an AI-powered SAT Tutor chatbot designed to help students master SAT problems through step-by-step explanations, adaptive difficulty, and error-specific guidance. Built with Python, Streamlit, and large language models, PrepMate provides a personalized learning experience.
 
 ## Features
 
@@ -10,7 +10,7 @@ CoachK is an AI-powered SAT Math Tutor chatbot designed to help students master 
 - **Error Classification:** Identifies common mistakes (conceptual, calculation, logic) and provides targeted hints.
 - **Step-by-Step Explanations:** Offers detailed solutions, strategies, and alternative approaches.
 - **LLM-Powered Guidance:** Uses large language models for natural language explanations and hints.
-- **Problem Bank:** Includes curated SAT Math questions with difficulty tags and topic labels.
+- **Problem Bank:** Includes curated SAT questions with difficulty tags and topic labels.
 
 ## Project Structure
 
@@ -35,8 +35,8 @@ CoachK is an AI-powered SAT Math Tutor chatbot designed to help students master 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/kanav-agarwal/sat-math-coach.git
-cd sat-math-coach
+git clone https://github.com/kanav-agarwal/PrepMate.git
+cd PrepMate
 ```
 
 2. Create a virtual environment:
@@ -96,6 +96,7 @@ streamlit run frontend/app_ui.py
 
 ## Contribution
 
-- Add more SAT Math problems with topic and difficulty tags.  
+- Add more SAT problems with topic and difficulty tags.  
 - Improve error classification rules or ML model.  
 - Enhance UI for better usability and visualization.
+
